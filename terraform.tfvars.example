@@ -1,0 +1,4 @@
+location = "Japan East"
+vnet_addr_scope = ["10.0.0.0/8"]
+super_user="hal"
+super_user_password="hal-20009"
