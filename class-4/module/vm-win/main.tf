@@ -20,8 +20,4 @@ resource "azurerm_windows_virtual_machine" "main" {
     version   = "latest"
   }
 
-
-  boot_diagnostics {
-    storage_account_uri = var.storage_account_uri
-  }
 }

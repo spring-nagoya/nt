@@ -25,7 +25,3 @@ variable "nic_ids" {
 variable "size" {
   type = string
 }
-
-variable "storage_account_uri" {
-  type = string
-}
